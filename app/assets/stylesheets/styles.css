@@ -2845,15 +2845,15 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #609687;
-  --bs-btn-border-color: #316764;
+  --bs-btn-bg: #3aa5a2;
+  --bs-btn-border-color: #405682;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #316764;
-  --bs-btn-hover-border-color: #316764;
+  --bs-btn-hover-bg: #03dac6;
+  --bs-btn-hover-border-color: #03dac6;
   --bs-btn-focus-shadow-rgb: 64, 79, 245;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #316764;
-  --bs-btn-active-border-color: #316764;
+  --bs-btn-active-bg: #03dac6;
+  --bs-btn-active-border-color: #03dac6;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #A7DDBC;
@@ -2862,15 +2862,15 @@ textarea.form-control-lg {
 
 .btn-secondary {
   --bs-btn-color: #000;
-  --bs-btn-bg: #e21e80;
-  --bs-btn-border-color: #e21e80;
+  --bs-btn-bg: #6200ee;
+  --bs-btn-border-color: #3700b3;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #e64093;
-  --bs-btn-hover-border-color: #e5358d;
+  --bs-btn-hover-bg: #bb86fc;
+  --bs-btn-hover-border-color: #bb86fc;
   --bs-btn-focus-shadow-rgb: 192, 26, 109;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #e84b99;
-  --bs-btn-active-border-color: #e5358d;
+  --bs-btn-active-bg: #bb86fc;
+  --bs-btn-active-border-color: #bb86fc;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #000;
   --bs-btn-disabled-bg: #e21e80;
@@ -3821,7 +3821,7 @@ textarea.form-control-lg {
   font-size: var(--bs-navbar-toggler-font-size);
   line-height: 1;
   color: var(--bs-navbar-color);
-  background-color: transparent;
+  background-color: #3aa5a2;
   border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
   border-radius: var(--bs-navbar-toggler-border-radius);
   transition: var(--bs-navbar-toggler-transition);
@@ -11556,11 +11556,17 @@ html {
 
 .bg-gradient-primary-to-secondary {
   background: #1e30f3;
-  background: linear-gradient(135deg, #A7DDBC 0%, #316764 100%);
+  background: linear-gradient(135deg, #552586 0%, #03dac6 100%);
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(315deg, #A7DDBC 0%, #316764 100%);
+  background: -webkit-linear-gradient(315deg, #03dac6 0%, #552586 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-secondary-gradient {
+  background: -webkit-linear-gradient(315deg, #ea1470 0%, #cf004b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
